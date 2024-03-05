@@ -1,0 +1,19 @@
+// Tipografias
+@import './recursos/tipografias';
+
+// Colores
+@import './variables/colores';
+
+// extends
+@import './recursos/extend';
+
+@import './recursos/bootstrap-customizado';
+
+// Resteteo
+@import './recursos/reset';
+
+// Secciones
+@import './sections/main_index';
+
+//Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

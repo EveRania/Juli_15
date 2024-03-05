@@ -1,0 +1,35 @@
+.titulos1 {
+  font-family: $Titulos;
+  font-size: 120px;
+  color: $rojo_principal;
+  text-align: center;
+  margin: auto;
+}
+
+.titulos2 {
+  font-family: $Titulos;
+  font-size: 60px;
+  margin: auto;
+  color: $rojo_principal;
+  text-align: center;
+  margin: auto;
+}
+
+.titulos3 {
+    font-family: $Titulos;
+    font-size: 50px;
+    margin: auto;
+    color: $rojo_principal;
+    text-align: center;
+    margin: auto;
+  }
+
+.textos {
+  font-family: $textos;
+  font-size: 30px;
+    margin: auto;
+    color: $color_texto;
+    text-align: center;
+    margin: auto;
+    max-width: 75%;
+}

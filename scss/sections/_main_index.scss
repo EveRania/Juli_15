@@ -1,0 +1,31 @@
+// h1, h2, h3{
+//     font-family: "Style Script";
+//     text-align: center;
+//     margin: auto;
+// }
+
+// p {
+//     font-family: "Preahvihear";
+// }
+
+// h1 {
+//     font-size: 120px;
+//     color: #b81111;
+//     /* text-shadow: #ee6666; */
+// }
+
+// h2, h3 {
+//     color: #b81111;
+// }
+
+#portada_texto, #invitacion_fiesta, #carrousel_fotos{
+.h1 {
+  @extend .titulos1;
+}
+.h2 {
+  @extend .titulos2;
+}
+.h3 {
+  @extend .titulos3;
+}
+}
