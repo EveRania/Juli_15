@@ -2,7 +2,8 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "node-sass": "^9.0.0",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "sweetalert2": "^11.10.6"
   },
   "name": "juli_sass",
   "version": "1.0.0",

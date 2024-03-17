@@ -12,37 +12,57 @@
     <!-- Header -->
     <div class="navigation-bar" id="navigation-bar">
         <!-- logo boton -->
-        <a href="index.html"> <img class="header_logo" src="./assets/img/logo_original-removebg-preview.png"
+        <a href="index.html"> <img class="header_logo" src="./assets/logo_original-removebg-preview.png"
                 alt="15 años Juli" width="300rem"></a>
 
-        <div class="navlist_der">
-            <a href="./index.html"> 🧩 <i class=""></i></a>
-            <a href="#invitacion">🧩<i class=""></i></a>
-            <a href="#carrousel">🧩<i class=""></i></a>
-            <a href="#regalos">🧩<i class=""></i></a>
-            <a href="#firmas">🧩<i class=""></i></a>
-            <a href="#map">🧩<i class=""></i></a>
-            <a href="#RSVP">🧩<i class=""></i></a>
+        <ul class="nav justify-content-end navlist_der">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html"> 🧩 </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#invitacion">🧩</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#carrousel">🧩</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#regalos">🧩</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#firmas">🧩</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#map">🧩</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#RSVP">🧩</a>
+            </li>
 
-        </div>
+        </ul>
 
         </a>
     </div>
 
-    <main id="portada">
+    <main>
+
         <!-- Portada -->
-        <section class="portada_foto">
-            <div class="portada_fecha">
-                <p class="textos">
-                    27.04.2024
-                </p>
-            </div>
-        </section>
-        <section id="portada_texto">
-            <h1 class=" h1">Juli</h1>
-            <h2 class="h2">Mis 15 años</h2>
-            <p class="textos">Te espero para compartir la alegría de esa noche que será para mi mágica, inolvidable y
-                única.</p>
+        <section id="portada">
+            <section id="portada_foto">
+                <div class="portada_fecha">
+                    <p class="textos">
+                        27.04.2024
+                    </p>
+                </div>
+
+            </section>
+            <section id="portada_texto">
+                <h1 class=" h1">Juli</h1>
+                <h2 class="h2">Mis 15 años</h2>
+                <p class="textos">Te espero para compartir la alegría de esa noche que será para mi mágica, inolvidable
+                    y
+                    única.</p>
+            </section>
+            <div class="separador"></div>
         </section>
 
         <!-- Invitacion a la fiesta -->
@@ -51,31 +71,78 @@
             <p class="textos">SAB 27 ABRIL</p>
             <p class="textos">21.00 HS</p>
             <!-- boton a whatsapp -->
-            <a href="#" class="boton">Confrimar asistencia</a>
+            <a class="btn btn-outline-danger d-grid gap-2 col-3 mx-auto" href="#" role="button">Confirmar asistencia</a>
+            <!-- <button type="button" class="btn btn-"></button> -->
+
+            <!-- <a href="#" class="boton"></a> -->
             <p class="textos">SALON CLUB SAN MARINENSES</p>
             <p class="textos">JAURETCHE 607</p>
             <!-- boton a mapa -->
-            <a href="#" class="boton">¿Como llegar?</a>
+            <a class="btn btn-outline-danger d-grid gap-2 col-3 mx-auto" href="#" role="button">¿Como llegar?</a>
             <h3 class="h3">Vestimenta formal</h3>
         </section>
+
+        <span></span>
         <!-- Carrousel -->
         <section id="carrousel_fotos">
             <h2 class="h2">Un recorrido de estos 15 años...</h2>
             <p class="textos">Junto a personas que son muy importantes en mi vida</p>
-            <div class="carrousel_container">
-                <ul class="pagination">
-                    <li class="pagination_item"> <a class="pagination_button"></a> </li>
-                    <li class="pagination_item"> <a class="pagination_button"></a> </li>
-                    <li class="pagination_item"> <a class="pagination_button"></a> </li>
-                    <li class="pagination_item"> <a class="pagination_button"></a> </li>
-                </ul>
 
-            </div>
+            <section class="carousel">
+                <ol class="carousel__viewport">
+                    <li class="carousel__slide">
+                        <div class="carousel__snapper" style="background-image: url('./assets/juliprdu_dh.jpg')"></div>
+                    </li>
+                    <li class="carousel__slide">
+                        <div class="carousel__snapper" style="background-image: url('./assets/juliprodu_amarillo.jpg')">
+                        </div>
+                    </li>
+                    <li class="carousel__slide">
+                        <div class="carousel__snapper" style="background-image: url('./assets/juliprodu_dh2.jpg')">
+                        </div>
+                    </li>
+                    <li class="carousel__slide">
+                        <div class="carousel__snapper" style="background-image: url('./assets/juliprodu_night.jpg')">
+                        </div>
+                    </li>
+                    <li class="carousel__slide">
+                        <div class="carousel__snapper" style="background-image: url('./assets/juliprodu_street.jpg')">
+                        </div>
+                    </li>
+                    <li class="carousel__slide">
+                        <div class="carousel__snapper" style="background-image: url('./assets/juli_dh_2.jpg')"></div>
+                    </li>
+                    <!-- <li class="carousel__slide">
+                        <div class="carousel__snapper" style="background-image: url('7.jpg')"></div> -->
+                    </li>
+                </ol>
+
+            </section>
         </section>
         <!-- Regalos -->
-        <!-- Libro de firmas -->
-        <!-- Map -->
-        <!-- RSVP -->
+        <section id="regalos">
+            <h2 class="h2">Si deseas regalarme algo mas que tu presencia</h2>
+
+            <button id="mybtn" type="button" class="btn btn-outline-danger d-grid gap-2 col-3 mx-auto" role="button">
+                Número de CBU
+            </button>
+
+            <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">×</span>
+                   <div class="textcontent">
+                    <p>Numero de cuenta: 2222222222222</p>
+                    <p>Titular de la cuenta: Julieta Belen Faraoni</p>
+                    <p>Alias: juli_mis_quince</p>
+                    <p>CBU: 222222222222</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- Libro de firmas -->
+            <!-- Map -->
+            <!-- RSVP -->
     </main>
 
 
