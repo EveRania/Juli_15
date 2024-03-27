@@ -21,7 +21,7 @@
 #portada_texto,
 #invitacion_fiesta,
 #carrousel_fotos,
-#regalos {
+#regalos, #firmas, #map {
   .h1 {
     @extend .titulos1;
     text-align: center;
@@ -206,4 +206,9 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.mapita {
+  display: flex;
+  justify-content: space-evenly
 }

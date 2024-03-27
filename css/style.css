@@ -4,7 +4,7 @@
 .titulos1, #portada_texto .h1,
 #invitacion_fiesta .h1,
 #carrousel_fotos .h1,
-#regalos .h1 {
+#regalos .h1, #firmas .h1, #map .h1 {
   font-family: "Style Script", cursive;
   font-size: 120px;
   color: #b81111;
@@ -15,7 +15,7 @@
 .titulos2, #portada_texto .h2,
 #invitacion_fiesta .h2,
 #carrousel_fotos .h2,
-#regalos .h2 {
+#regalos .h2, #firmas .h2, #map .h2 {
   font-family: "Style Script", cursive;
   font-size: 60px;
   margin: auto;
@@ -27,7 +27,7 @@
 .titulos3, #portada_texto .h3,
 #invitacion_fiesta .h3,
 #carrousel_fotos .h3,
-#regalos .h3 {
+#regalos .h3, #firmas .h3, #map .h3 {
   font-family: "Style Script", cursive;
   font-size: 50px;
   margin: auto;
@@ -38,7 +38,7 @@
 
 .textos {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   margin: auto;
   color: #232323;
   text-align: center;
@@ -52,7 +52,7 @@
 #portada_texto .h1,
 #invitacion_fiesta .h1,
 #carrousel_fotos .h1,
-#regalos .h1 {
+#regalos .h1, #firmas .h1, #map .h1 {
   text-align: center;
   margin: auto;
   max-width: 70%; }
@@ -60,7 +60,7 @@
 #portada_texto .h2,
 #invitacion_fiesta .h2,
 #carrousel_fotos .h2,
-#regalos .h2 {
+#regalos .h2, #firmas .h2, #map .h2 {
   text-align: center;
   margin: auto;
   max-width: 70%; }
@@ -68,7 +68,7 @@
 #portada_texto .h3,
 #invitacion_fiesta .h3,
 #carrousel_fotos .h3,
-#regalos .h3 {
+#regalos .h3, #firmas .h3, #map .h3 {
   text-align: center;
   margin: auto;
   max-width: 70%; }
@@ -205,6 +205,10 @@
   color: black;
   text-decoration: none;
   cursor: pointer; }
+
+.mapita {
+  display: flex;
+  justify-content: space-evenly; }
 
 /*!
    * Bootstrap  v5.3.3 (https://getbootstrap.com/)
