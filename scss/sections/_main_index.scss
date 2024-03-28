@@ -18,10 +18,14 @@
 //     color: #b81111;
 // }
 
+#navigation_bar,
 #portada_texto,
 #invitacion_fiesta,
 #carrousel_fotos,
-#regalos, #firmas, #map {
+#regalos,
+#firmas,
+#map,
+#footer {
   .h1 {
     @extend .titulos1;
     text-align: center;
@@ -40,11 +44,64 @@
     margin: auto;
     max-width: 70%;
   }
+
+  .h4 {
+    @extend .titulos4;
+    text-align: center;
+    margin: auto;
+    max-width: 70%;
+  }
+}
+
+#navigation_bar {
+  // position: sticky;
+  // top: 0;
+  // left: 0;
+  // z-index: 1;
+  .navigation_bar {
+    display: flex;
+    background-color: $rojo_principal;
+    color: #fefefe;
+    justify-content: space-around;
+
+    .header_izq {
+      text-align: left;
+      // margin-right: 30px;
+      text-align: center;
+      // max-width: 100%;
+
+      .h4 {
+        max-width: 100%;
+      }
+
+      a {
+        text-decoration: none;
+        // margin-right: 30px;
+      }
+      .textos {
+        color: #fefefe;
+        font-size: 14px;
+      }
+    }
+    .nav {
+      text-align: right;
+
+      .nav-item {
+        list-style: none;
+        .nav-link {
+          // vertical-align: middle;
+          margin-top: 18px;
+        }
+      }
+    }
+  }
 }
 
 #portada_foto {
-  background-color: red;
-  background-image: url(../assets/juliprodu_horizontal.jpg);
+  // background-color: red;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url(../assets/juliprodu_horizontal.jpg);
+  // background-image: url(../assets/juliprodu_horizontal.jpg);
   // min-height: 200vh;
   height: 587px;
   background-position: center center;
@@ -166,26 +223,24 @@
   top: 0;
   width: 100%;
   height: 100%;
-    overflow-x: hidden;
+  overflow-x: hidden;
   overflow-y: auto;
   font-family: $textos;
   background-color: #fefefe95;
-  
 }
 
 /* Estilos para el contenido del modal */
 .modal-content {
-    border: 1px solid #888;
-    box-shadow: 0px 0px 15px 10px grey;
+  border: 1px solid #888;
+  box-shadow: 0px 0px 15px 10px grey;
   border: 1px solid #888;
   width: 80%;
   max-width: 70%;
   border-radius: 45px;
   padding: 10%;
   margin: 15% auto;
-  
 }
-  .textcontent{
+.textcontent {
   background-color: #fefefe;
   font-family: $textos;
   text-align: center;
@@ -210,5 +265,40 @@
 
 .mapita {
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+}
+
+#footer {
+  .footer {
+    display: flex;
+    background-color: $rojo_principal;
+    color: #fefefe;
+    justify-content: space-around;
+
+    .footer_izq {
+      text-align: left;
+      // margin-right: 30px;
+      text-align: center;
+      // max-width: 100%;
+
+      .h4 {
+        max-width: 100%;
+      }
+
+      a {
+        text-decoration: none;
+        // margin-right: 30px;
+      }
+      .textos {
+        color: #fefefe;
+        font-size: 14px;
+      }
+    }
+    .footer_der {
+      text-align: right;
+      li {
+        list-style: none;
+      }
+    }
+  }
 }
